@@ -32,8 +32,8 @@ textarea {
     width: 400px;
 }
 textarea {
-    background-color: rgb(237, 204, 162);
     padding: 10px 5px;
+    background-color: rgb(238, 203, 158);
 }
 
 /*page header*/
@@ -53,4 +53,7 @@ textarea {
     margin: 0 auto;
     position: relative;
     top: -62px;
+}
+#send{
+    background-color: #8b7a7a;
 }

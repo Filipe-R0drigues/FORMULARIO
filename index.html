@@ -120,7 +120,116 @@
                         required
                     >    
                 </div>
-                <input type="submit" value="Enviar">
+                <div class="box-imput">
+                    <p>Qual o tipo de câmbio do veículo:
+                         <span class="required-field">*</span>
+                    </p>
+                    <input 
+                        type="radio"
+                        name="gear"
+                        id="manual"
+                    >
+                    <label for="manual">Manual</label> 
+                    <input 
+                        type="radio"
+                        name="gear"
+                        id="automatic"
+                    >
+                    <label for="automatic">Automático</label> 
+                </div>
+                <div class="optional-box">
+                    <p>Opcionais:</p>
+                    <ul class="optional-list">
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="airbag"
+                            value="airbag"
+                            >
+                            <label for="airbag">airbag</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="alarm"
+                            value="alarm"
+                            >
+                            <label for="alarm">Alarme</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="air-conditioning"
+                            value="air-conditioning"
+                            >
+                            <label for="air-conditioning">Ar condicionado</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="reverse-camera"
+                            value="reverse-camera"
+                            >
+                            <label for="reverse-camera">Câmera de ré</label> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="optional-box">
+                    <ul class="optional-list">
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="lane-assiste"
+                            value="lane-assiste"
+                            >
+                            <label for="lane-assiste">Assistente de pista</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="keyless"
+                            value="keyless"
+                            >
+                            <label for="keyless">Partida Keyless</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="smartphone"
+                            value="smartphone"
+                            >
+                            <label for="smartphone">Conexão com o Celular</label> 
+                        </li>
+                        <li>
+                            <input 
+                            type="checkbox"
+                            name="optional"
+                            id="lether-seat"
+                            value="lether-seat"
+                            >
+                            <label for="leather-seat">Banco de couro</label> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-input">
+                    <p>Fotos do carro</p>
+                    <input 
+                        type="file" 
+                        multiple
+                        accept="image/png, image/jpg"
+                        id="images"
+                        name="images"
+                        required
+                        >
+                </div>
+                <input type="submit" id="send" value="Enviar">
             </form>
         </div>
     </div>
