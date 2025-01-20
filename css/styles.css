@@ -55,5 +55,74 @@ textarea {
     top: -62px;
 }
 #send{
-    background-color: #8b7a7a;
+    background-color: purple;
+    color: white;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#send:hover{
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-color: purple;
+    color: purple;
+    
+}
+
+
+
+.header-form{
+    border-bottom: 1px solid rgb(183, 153, 115);
+    height: 45px;
+}
+
+.header-form p {
+    color: purple;
+    width: 132px;
+    text-align: center;
+    border-bottom: 2px solid purple;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input p {
+    margin-bottom: 15px;
 }
